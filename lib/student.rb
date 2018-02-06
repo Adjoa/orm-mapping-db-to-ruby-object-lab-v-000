@@ -85,7 +85,11 @@ class Student
   end
 
   def first_X_students_in_grade_10
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 695ebc05d08ac09c4b7878383a35d0ec505e4ac1
   end
 
 
