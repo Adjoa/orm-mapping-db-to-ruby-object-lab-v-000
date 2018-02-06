@@ -102,7 +102,7 @@ class Student
       WHERE students.grade = ?
       LIMIT ?
     SQL
-    
+
     DB[:conn].execute(sql, 10, 1).map do |row|
       self.new_from_db(row)
     end.first
